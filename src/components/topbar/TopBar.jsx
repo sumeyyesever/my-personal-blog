@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
 import "./topbar.css";
 
 export default function TopBar(){
     return (
         <div className="top">
         <div className="topLeft">
-            <h1 className="topTitle">things that i love.</h1>
+            <h1 className="topTitle"> <Link to="/" className="link">things that i love.</Link> </h1>
         </div>
         <div className="topRight">
             <ul className="topList">
